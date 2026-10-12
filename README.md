@@ -43,6 +43,7 @@
 
 2.  Блок-схема
 <img width="1076" height="888" alt="7схема" src="https://github.com/user-attachments/assets/46d33c54-ce6e-40ef-bcae-4497471cd8ca" />
+https://app.diagrams.net/#L7.drawio#%7B%22pageId%22%3A%22D1f1j81X4SBxYc57SgBv%22%7D
 
 3. Код
 ```c
