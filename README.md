@@ -45,8 +45,8 @@
 <img width="1076" height="888" alt="7схема" src="https://github.com/user-attachments/assets/46d33c54-ce6e-40ef-bcae-4497471cd8ca" />
 
 3. Код
-
-   #define _CRT_SECURE_NO_WARNINGS
+```c
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <locale.h>
 
