@@ -4,24 +4,110 @@
 Напишите программу перевода чисел от 1 до 13 в слова 
 
 1.Алгоритм и блок-схема
+
 Алгоритм
+
 1. Начало.
 2. Задать исходные данные: ввести целое число number (номер числа от 1 до 13).
-3. Проверить значение number (переключатель switch):
+   
+4. Проверить значение number (переключатель switch):
+   
 	 Если number == 1 → вывести на экран «один».
+
 	 Если number == 2 → вывести на экран «два».
+
 	 Если number == 3 → вывести на экран «три».
+
 	 Если number == 4 → вывести на экран «четыре».
+
 	 Если number == 5 → вывести на экран «пять».
+
 	 Если number == 6 → вывести на экран «шесть».
+
 	 Если number == 7 → вывести на экран «семь».
+
 	 Если number == 8 → вывести на экран «восемь».
+
 	 Если number == 9 → вывести на экран «девять».
+
 	 Если number == 10 → вывести на экран «десять».
+
 	 Если number == 11 → вывести на экран «одиннадцать».
+
 	 Если number == 12 → вывести на экран «двенадцать».
+
 	 Если number == 13 → вывести на экран «тринадцать».
+
 	 Во всех остальных случаях (иначе) → вывести на экран «ошибка».
 4.Конец
 
-Блок-схема
+2.  Блок-схема
+<img width="1076" height="888" alt="7схема" src="https://github.com/user-attachments/assets/46d33c54-ce6e-40ef-bcae-4497471cd8ca" />
+
+3. Код
+
+   #define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <locale.h>
+
+int main() {
+    setlocale(LC_ALL, ".UTF8");
+    int number;
+
+    printf("Введите число от 1 до 13: ");
+    scanf("%d", &number);
+
+    switch (number) {
+    case 1:
+        printf("один\n");
+        break;
+    case 2:
+        printf("два\n");
+        break;
+    case 3:
+        printf("три\n");
+        break;
+    case 4:
+        printf("четыре\n");
+        break;
+    case 5:
+        printf("пять\n");
+        break;
+    case 6:
+        printf("шесть\n");
+        break;
+    case 7:
+        printf("семь\n");
+        break;
+    case 8:
+        printf("восемь\n");
+        break;
+    case 9:
+        printf("девять\n");
+        break;
+    case 10:
+        printf("десять\n");
+        break;
+    case 11:
+        printf("одиннадцать\n");
+        break;
+    case 12:
+        printf("двенадцать\n");
+        break;
+    case 13:
+        printf("тринадцать\n");
+        break;
+    default:
+      
+        printf("ошибка\n");
+        break;
+    }
+
+    return 0;
+} 
+
+5.Вывод из консоли
+
+Введите число от 1 до 13: 5
+
+пять
